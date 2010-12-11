@@ -15,6 +15,9 @@
  */
 
 #include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdlib.h>
 
 // How far the brightness should move with each step.
 #define JUMP 0xa
